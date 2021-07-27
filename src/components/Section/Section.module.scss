@@ -1,0 +1,11 @@
+.Section {
+  padding: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(218, 218, 218);
+  width: 350px;
+
+  & h2 {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}

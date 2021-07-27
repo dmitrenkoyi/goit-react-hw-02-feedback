@@ -1,0 +1,9 @@
+.Statictics {
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 5px;
+
+  & p {
+    margin: 10px;
+  }
+}
