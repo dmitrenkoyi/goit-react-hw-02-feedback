@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import Container from './components/Container';
 import Section from './components/Section';
@@ -6,10 +7,11 @@ import FeedbackOptions from './components/FeedbackOptions';
 import Statistics from './components/Statistics';
 
 class App extends Component {
-  // static defaultProps = {
-  //   total: 0,
-  //   positivePercentage: 0,
-  // };
+  static defaultProps = {
+    good: PropTypes.number,
+    neutral: PropTypes.number,
+    bad: PropTypes.number,
+  };
 
   state = {
     good: 0,
